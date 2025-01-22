@@ -72,5 +72,5 @@ static const struct arg args[] = {
     { ram_perc,  	"💻%s%%|",        	NULL},
 	{ battery_perc, "🔋%s%%|",			"BAT0"},
 	{ run_command,  "🔈%s|","amixer get Master |cut -d ' ' -f 6 |sed '1,4d; s/[][]//; s/\]$//'"},
-    { datetime,  	"%s",          	"114年%m月%d日 週%u %T" },
+    { datetime,  	"%s",          	"%y年%m月%d日 週%u %T" },
 };
