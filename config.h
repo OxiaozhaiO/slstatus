@@ -63,6 +63,7 @@ static const char unknown_str[] = "n/a";
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
+static const char *color_red = "#FF0000";
 static const struct arg args[] = {
      /* function        format                argument */
     { hostname,  	"󰣇 %s|",             	NULL},
